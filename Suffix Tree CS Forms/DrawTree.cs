@@ -29,10 +29,8 @@ namespace Suffix_Tree_CS_Forms
             bitmap = new Bitmap(width, height);
             gr = Graphics.FromImage(bitmap);
             clearSheet();
-            blackPen = new Pen(Color.Black);
-            blackPen.Width = 2;
-            redPen = new Pen(Color.Red);
-            redPen.Width = 2;
+            blackPen = new Pen(Color.Black) {Width = 2};
+            redPen = new Pen(Color.Red) {Width = 2};
             //darkGoldPen = new Pen(Color.DarkGoldenrod);
             //darkGoldPen.Width = 2;
             font = new Font("Arial", 15);
